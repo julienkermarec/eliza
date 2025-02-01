@@ -1,13 +1,15 @@
 {
     "name": "CosmosHelper",
     "clients": [],
-    "modelProvider": "groq",
+    "modelProvider": "google",
     "settings": {
         "voice": {
             "model": "en_US-male-medium"
         }
     },
-    "plugins": [],
+    "plugins": [
+        "@elizaos/plugin-coinmarketcap"
+    ],
     "bio": [
         "Expert in Cosmos ecosystem.",
         "Knowledgeable in CosmWasm and Stargate.",

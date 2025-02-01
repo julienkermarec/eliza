@@ -8,7 +8,6 @@ import {
     formatActions,
 } from "./actions.ts";
 import { addHeader, composeContext } from "./context.ts";
-import { defaultCharacter } from "./defaultCharacter.ts";
 import {
     evaluationTemplate,
     formatEvaluatorExamples,
@@ -56,6 +55,7 @@ import {
 import { stringToUuid } from "./uuid.ts";
 import { glob } from "glob";
 import { existsSync } from "fs";
+import { defaultCharacter } from "./defaultCharacter.ts";
 /**
  * Represents the runtime environment for an agent, handling message processing,
  * action registration, and interaction with external services like OpenAI and Supabase.
